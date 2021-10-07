@@ -1,0 +1,194 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'pt' Physical Memory: 7611 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Carlos/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59995
+Successfully changed project path to: C:/Users/Carlos/My project
+C:/Users/Carlos/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Carlos/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3805 MB
+    Driver:   30.0.13017.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006652 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3050ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2054ms)
+		BeginReloadAssembly (306ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1545ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 3.472400 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.038800 ms MarkObjects: 3.126600 ms  DeleteObjects: 0.109700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ball.fbx
+  artifactKey: Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.fbx using Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86249757a6b5c6f3a404842a3a983447') in 0.796886 seconds 
+  Import took 0.804898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.214420 seconds.
+  path: Assets/ball.fbx
+  artifactKey: Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.fbx using Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2a32e3867f68edbf5a3e0a2cb0d355') in 0.084445 seconds 
+  Import took 0.088730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/futebol.png
+  artifactKey: Guid(67101058c2d0a1341a19c88f2022ecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/futebol.png using Guid(67101058c2d0a1341a19c88f2022ecc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d266cf113521f687a0bf69dbe3c869') in 0.047826 seconds 
+  Import took 0.054300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.053428 seconds.
+  path: Assets/ball.fbx
+  artifactKey: Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.fbx using Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e6345189716ad5cd05a3b61287de36') in 0.060759 seconds 
+  Import took 0.066053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Material.001.mat
+  artifactKey: Guid(8497138a6868856498e5072150a3b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material.001.mat using Guid(8497138a6868856498e5072150a3b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74d6a8ee4b5a46664dbc15062ebb63a') in 0.045830 seconds 
+  Import took 0.051316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.824415 seconds.
+  path: Assets/ball.fbx
+  artifactKey: Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.fbx using Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a06abefa737be7ed3e0385c6579bd62') in 0.088470 seconds 
+  Import took 0.148892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.008666 seconds.
+  path: Assets/ball.fbx
+  artifactKey: Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball.fbx using Guid(5f450d639cf7c83469d171adf901e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d850161b33bb53d6e9be14baf7e5378') in 0.038774 seconds 
+  Import took 0.043452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Material.001.mat
+  artifactKey: Guid(8497138a6868856498e5072150a3b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material.001.mat using Guid(8497138a6868856498e5072150a3b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902e0a93140ff9d5130e0cfe0f7c0371') in 0.027555 seconds 
+  Import took 0.031786 seconds .
+
